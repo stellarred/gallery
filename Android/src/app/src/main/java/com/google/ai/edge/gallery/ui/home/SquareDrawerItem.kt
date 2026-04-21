@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.ai.edge.gallery.ui.home
+package com.halo.ai.ui.home
 
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable

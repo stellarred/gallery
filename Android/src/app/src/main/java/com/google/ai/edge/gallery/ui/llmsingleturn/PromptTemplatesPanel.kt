@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.ai.edge.gallery.ui.llmsingleturn
+package com.halo.ai.ui.llmsingleturn
 
 import android.content.ClipData
 import androidx.compose.foundation.BorderStroke

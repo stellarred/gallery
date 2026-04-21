@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.ai.edge.gallery.runtime
+package com.halo.ai.runtime
 
 import android.content.Context
 import android.graphics.Bitmap

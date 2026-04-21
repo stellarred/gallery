@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.ai.edge.gallery.ui.modelmanager
+package com.halo.ai.ui.modelmanager
 
 import android.content.Context
 import android.util.Log

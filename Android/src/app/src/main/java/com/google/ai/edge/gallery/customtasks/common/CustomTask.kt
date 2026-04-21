@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.ai.edge.gallery.customtasks.common
+package com.halo.ai.customtasks.common
 
 import android.content.Context
 import androidx.compose.runtime.Composable

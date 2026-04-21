@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.ai.edge.gallery.customtasks.examplecustomtask
+package com.halo.ai.customtasks.examplecustomtask
 
 import android.content.Context
 import androidx.compose.material.icons.Icons

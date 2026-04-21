@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.ai.edge.gallery.ui.common
+package com.halo.ai.ui.common
 
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.ProvideTextStyle

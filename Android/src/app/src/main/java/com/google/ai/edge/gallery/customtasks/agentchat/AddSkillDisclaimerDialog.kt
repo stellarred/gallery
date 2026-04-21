@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.ai.edge.gallery.customtasks.agentchat
+package com.halo.ai.customtasks.agentchat
 
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Button

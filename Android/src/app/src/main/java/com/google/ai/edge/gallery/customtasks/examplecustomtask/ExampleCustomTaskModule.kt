@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.ai.edge.gallery.customtasks.examplecustomtask
+package com.halo.ai.customtasks.examplecustomtask
 
 import com.google.ai.edge.gallery.customtasks.common.CustomTask
 import dagger.Module

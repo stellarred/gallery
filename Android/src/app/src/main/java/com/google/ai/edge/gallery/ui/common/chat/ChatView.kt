@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.ai.edge.gallery.ui.common.chat
+package com.halo.ai.ui.common.chat
 
 // import com.google.ai.edge.gallery.ui.preview.PreviewChatModel
 // import com.google.ai.edge.gallery.ui.preview.PreviewModelManagerViewModel

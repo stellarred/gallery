@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.ai.edge.gallery.data
+package com.halo.ai.data
 
 import android.os.Build
 import android.util.Log

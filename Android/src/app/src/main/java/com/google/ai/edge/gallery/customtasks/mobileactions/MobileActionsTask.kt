@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.ai.edge.gallery.customtasks.mobileactions
+package com.halo.ai.customtasks.mobileactions
 
 import android.content.Context
 import androidx.compose.material.icons.Icons

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.ai.edge.gallery.ui.common.tos
+package com.halo.ai.ui.common.tos
 
 import androidx.lifecycle.ViewModel
 import com.google.ai.edge.gallery.data.DataStoreRepository

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.ai.edge.gallery.ui.llmchat
+package com.halo.ai.ui.llmchat
 
 import androidx.hilt.navigation.compose.hiltViewModel
 

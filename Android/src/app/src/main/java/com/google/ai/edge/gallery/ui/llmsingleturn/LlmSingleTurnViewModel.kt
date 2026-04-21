@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.ai.edge.gallery.ui.llmsingleturn
+package com.halo.ai.ui.llmsingleturn
 
 import android.util.Log
 import androidx.lifecycle.ViewModel

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.ai.edge.gallery.ui.home
+package com.halo.ai.ui.home
 
 import com.google.android.gms.oss.licenses.OssLicensesMenuActivity
 import android.app.UiModeManager

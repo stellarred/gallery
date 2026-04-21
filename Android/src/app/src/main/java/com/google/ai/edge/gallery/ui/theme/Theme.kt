@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.ai.edge.gallery.ui.theme
+package com.halo.ai.ui.theme
 
 import android.app.Activity
 import android.os.Build

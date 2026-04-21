@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.ai.edge.gallery.ui.navigation
+package com.halo.ai.ui.navigation
 
 import android.os.Bundle
 import android.util.Log

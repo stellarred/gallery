@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.ai.edge.gallery.ui.benchmark
+package com.halo.ai.ui.benchmark
 
 import android.os.Bundle
 import androidx.compose.animation.AnimatedVisibility

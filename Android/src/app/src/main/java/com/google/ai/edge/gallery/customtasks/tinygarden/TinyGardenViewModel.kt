@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.ai.edge.gallery.customtasks.tinygarden
+package com.halo.ai.customtasks.tinygarden
 
 import android.content.Context
 import android.util.Log

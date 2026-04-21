@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.ai.edge.gallery.worker
+package com.halo.ai.worker
 
 import android.app.NotificationChannel
 import android.app.NotificationManager

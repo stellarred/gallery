@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.ai.edge.gallery.ui.common.modelitem
+package com.halo.ai.ui.common.modelitem
 
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Button

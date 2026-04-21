@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.ai.edge.gallery.customtasks.tinygarden
+package com.halo.ai.customtasks.tinygarden
 
 import com.google.ai.edge.gallery.customtasks.common.CustomTask
 import dagger.Module

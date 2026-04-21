@@ -29,11 +29,11 @@ plugins {
 }
 
 android {
-  namespace = "com.google.ai.edge.gallery"
+  namespace = "com.halo.ai"
   compileSdk = 35
 
   defaultConfig {
-    applicationId = "com.google.aiedge.gallery"
+    applicationId = "com.halo.ai"
     minSdk = 31
     targetSdk = 35
     versionCode = 26

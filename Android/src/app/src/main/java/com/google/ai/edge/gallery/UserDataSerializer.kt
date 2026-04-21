@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.ai.edge.gallery
+package com.halo.ai
 
 import androidx.datastore.core.CorruptionException
 import androidx.datastore.core.Serializer

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.ai.edge.gallery.di
+package com.halo.ai.di
 
 import android.content.Context
 import androidx.datastore.core.DataStore
