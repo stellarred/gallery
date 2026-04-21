@@ -53,10 +53,10 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.unit.dp
-import com.google.ai.edge.gallery.R
-import com.google.ai.edge.gallery.data.Task
-import com.google.ai.edge.gallery.ui.common.getTaskIconColor
-import com.google.ai.edge.gallery.ui.theme.bodyLargeNarrow
+import com.halo.ai.R
+import com.halo.ai.data.Task
+import com.halo.ai.ui.common.getTaskIconColor
+import com.halo.ai.ui.theme.bodyLargeNarrow
 
 @Composable
 fun TextAndVoiceInput(

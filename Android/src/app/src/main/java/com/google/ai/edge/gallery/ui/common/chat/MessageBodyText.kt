@@ -16,7 +16,7 @@
 
 package com.halo.ai.ui.common.chat
 
-// import com.google.ai.edge.gallery.ui.theme.GalleryTheme
+// import com.halo.ai.ui.theme.GalleryTheme
 // import androidx.compose.ui.tooling.preview.Preview
 
 import androidx.compose.foundation.layout.padding
@@ -32,8 +32,8 @@ import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.liveRegion
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.unit.dp
-import com.google.ai.edge.gallery.R
-import com.google.ai.edge.gallery.ui.common.MarkdownText
+import com.halo.ai.R
+import com.halo.ai.ui.common.MarkdownText
 
 /** Composable function to display the text content of a ChatMessageText. */
 @Composable

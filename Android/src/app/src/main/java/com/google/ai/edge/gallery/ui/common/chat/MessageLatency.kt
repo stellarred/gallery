@@ -17,7 +17,7 @@
 package com.halo.ai.ui.common.chat
 
 // import androidx.compose.ui.tooling.preview.Preview
-// import com.google.ai.edge.gallery.ui.theme.GalleryTheme
+// import com.halo.ai.ui.theme.GalleryTheme
 
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
@@ -25,7 +25,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.platform.testTag
-import com.google.ai.edge.gallery.ui.common.humanReadableDuration
+import com.halo.ai.ui.common.humanReadableDuration
 
 /** Composable function to display the latency of a chat message, if available. */
 @Composable

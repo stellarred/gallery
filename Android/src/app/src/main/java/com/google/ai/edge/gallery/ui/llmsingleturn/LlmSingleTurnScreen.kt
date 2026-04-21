@@ -19,9 +19,9 @@ package com.halo.ai.ui.llmsingleturn
 import androidx.hilt.navigation.compose.hiltViewModel
 
 // import androidx.compose.ui.tooling.preview.Preview
-// import com.google.ai.edge.gallery.ui.preview.PreviewLlmSingleTurnViewModel
-// import com.google.ai.edge.gallery.ui.preview.PreviewModelManagerViewModel
-// import com.google.ai.edge.gallery.ui.theme.GalleryTheme
+// import com.halo.ai.ui.preview.PreviewLlmSingleTurnViewModel
+// import com.halo.ai.ui.preview.PreviewModelManagerViewModel
+// import com.halo.ai.ui.theme.GalleryTheme
 import android.util.Log
 import androidx.activity.compose.BackHandler
 import androidx.compose.animation.AnimatedVisibility
@@ -51,16 +51,16 @@ import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalLayoutDirection
 import androidx.core.os.bundleOf
-import com.google.ai.edge.gallery.GalleryEvent
-import com.google.ai.edge.gallery.data.BuiltInTaskId
-import com.google.ai.edge.gallery.data.ModelDownloadStatusType
-import com.google.ai.edge.gallery.firebaseAnalytics
-import com.google.ai.edge.gallery.ui.common.ErrorDialog
-import com.google.ai.edge.gallery.ui.common.ModelPageAppBar
-import com.google.ai.edge.gallery.ui.common.chat.ModelDownloadStatusInfoPanel
-import com.google.ai.edge.gallery.ui.modelmanager.ModelInitializationStatusType
-import com.google.ai.edge.gallery.ui.modelmanager.ModelManagerViewModel
-import com.google.ai.edge.gallery.ui.theme.customColors
+import com.halo.ai.GalleryEvent
+import com.halo.ai.data.BuiltInTaskId
+import com.halo.ai.data.ModelDownloadStatusType
+import com.halo.ai.firebaseAnalytics
+import com.halo.ai.ui.common.ErrorDialog
+import com.halo.ai.ui.common.ModelPageAppBar
+import com.halo.ai.ui.common.chat.ModelDownloadStatusInfoPanel
+import com.halo.ai.ui.modelmanager.ModelInitializationStatusType
+import com.halo.ai.ui.modelmanager.ModelManagerViewModel
+import com.halo.ai.ui.theme.customColors
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 

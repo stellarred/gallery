@@ -50,10 +50,10 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.google.ai.edge.gallery.data.ConfigKey
-import com.google.ai.edge.gallery.data.NumberSliderConfig
-import com.google.ai.edge.gallery.data.ValueType
-import com.google.ai.edge.gallery.ui.modelmanager.ModelManagerViewModel
+import com.halo.ai.data.ConfigKey
+import com.halo.ai.data.NumberSliderConfig
+import com.halo.ai.data.ValueType
+import com.halo.ai.ui.modelmanager.ModelManagerViewModel
 
 data class ExampleCustomTaskModelInstance(val content: String)
 

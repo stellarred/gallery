@@ -17,14 +17,14 @@ package com.halo.ai.customtasks.agentchat
 
 import android.content.Context
 import android.util.Log
-import com.google.ai.edge.gallery.common.AgentAction
-import com.google.ai.edge.gallery.common.AskInfoAgentAction
-import com.google.ai.edge.gallery.common.CallJsAgentAction
-import com.google.ai.edge.gallery.common.CallJsSkillResult
-import com.google.ai.edge.gallery.common.CallJsSkillResultImage
-import com.google.ai.edge.gallery.common.CallJsSkillResultWebview
-import com.google.ai.edge.gallery.common.LOCAL_URL_BASE
-import com.google.ai.edge.gallery.common.SkillProgressAgentAction
+import com.halo.ai.common.AgentAction
+import com.halo.ai.common.AskInfoAgentAction
+import com.halo.ai.common.CallJsAgentAction
+import com.halo.ai.common.CallJsSkillResult
+import com.halo.ai.common.CallJsSkillResultImage
+import com.halo.ai.common.CallJsSkillResultWebview
+import com.halo.ai.common.LOCAL_URL_BASE
+import com.halo.ai.common.SkillProgressAgentAction
 import com.google.ai.edge.litertlm.Tool
 import com.google.ai.edge.litertlm.ToolParam
 import com.google.ai.edge.litertlm.ToolSet

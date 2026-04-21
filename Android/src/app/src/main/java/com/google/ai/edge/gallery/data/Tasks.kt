@@ -20,7 +20,7 @@ import androidx.annotation.StringRes
 import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.mutableLongStateOf
 import androidx.compose.ui.graphics.vector.ImageVector
-import com.google.ai.edge.gallery.R
+import com.halo.ai.R
 
 /**
  * Data class for a task displayed on the home screen
@@ -29,7 +29,7 @@ import com.google.ai.edge.gallery.R
  * home screen. The tab bar is hidden if only one category exists. Each task can have a list of
  * associated models (see [Model]], which are shown when the task is selected.
  *
- * To register a custom task, see [com.google.ai.edge.gallery.customtasks.common.CustomTask].
+ * To register a custom task, see [com.halo.ai.customtasks.common.CustomTask].
  */
 data class Task(
   /**

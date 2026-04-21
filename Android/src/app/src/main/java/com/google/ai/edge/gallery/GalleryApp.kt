@@ -19,8 +19,8 @@ package com.halo.ai
 import androidx.compose.runtime.Composable
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
-import com.google.ai.edge.gallery.ui.modelmanager.ModelManagerViewModel
-import com.google.ai.edge.gallery.ui.navigation.GalleryNavHost
+import com.halo.ai.ui.modelmanager.ModelManagerViewModel
+import com.halo.ai.ui.navigation.GalleryNavHost
 
 /** Top level composable representing the main screen of the application. */
 @Composable

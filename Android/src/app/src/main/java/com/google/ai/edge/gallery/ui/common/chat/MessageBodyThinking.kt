@@ -43,8 +43,8 @@ import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import com.google.ai.edge.gallery.R
-import com.google.ai.edge.gallery.ui.common.MarkdownText
+import com.halo.ai.R
+import com.halo.ai.ui.common.MarkdownText
 
 @Composable
 fun MessageBodyThinking(thinkingText: String, inProgress: Boolean) {

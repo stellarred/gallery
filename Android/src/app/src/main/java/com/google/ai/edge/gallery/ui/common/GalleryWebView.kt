@@ -38,7 +38,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.viewinterop.AndroidView
 import androidx.webkit.WebViewAssetLoader
-import com.google.ai.edge.gallery.common.LOCAL_URL_BASE
+import com.halo.ai.common.LOCAL_URL_BASE
 import java.io.File
 
 private const val TAG = "AGGalleryWebView"

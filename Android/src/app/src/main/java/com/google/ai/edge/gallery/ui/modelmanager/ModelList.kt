@@ -17,9 +17,9 @@
 package com.halo.ai.ui.modelmanager
 
 // import androidx.compose.ui.tooling.preview.Preview
-// import com.google.ai.edge.gallery.ui.preview.PreviewModelManagerViewModel
-// import com.google.ai.edge.gallery.ui.preview.TASK_TEST1
-// import com.google.ai.edge.gallery.ui.theme.GalleryTheme
+// import com.halo.ai.ui.preview.PreviewModelManagerViewModel
+// import com.halo.ai.ui.preview.TASK_TEST1
+// import com.halo.ai.ui.theme.GalleryTheme
 
 import androidx.compose.ui.platform.LocalContext
 
@@ -61,18 +61,18 @@ import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import com.google.ai.edge.gallery.R
-import com.google.ai.edge.gallery.data.Model
-import com.google.ai.edge.gallery.data.Task
-import com.google.ai.edge.gallery.ui.common.ClickableLink
-import com.google.ai.edge.gallery.ui.common.RevealingText
-import com.google.ai.edge.gallery.ui.common.TaskIcon
-import com.google.ai.edge.gallery.ui.common.getTaskBgColor
-import com.google.ai.edge.gallery.ui.common.getTaskBgGradientColors
-import com.google.ai.edge.gallery.ui.common.modelitem.ModelItem
-import com.google.ai.edge.gallery.ui.common.rememberDelayedAnimationProgress
-import com.google.ai.edge.gallery.ui.theme.bodyLargeNarrow
-import com.google.ai.edge.gallery.ui.theme.headlineLargeMedium
+import com.halo.ai.R
+import com.halo.ai.data.Model
+import com.halo.ai.data.Task
+import com.halo.ai.ui.common.ClickableLink
+import com.halo.ai.ui.common.RevealingText
+import com.halo.ai.ui.common.TaskIcon
+import com.halo.ai.ui.common.getTaskBgColor
+import com.halo.ai.ui.common.getTaskBgGradientColors
+import com.halo.ai.ui.common.modelitem.ModelItem
+import com.halo.ai.ui.common.rememberDelayedAnimationProgress
+import com.halo.ai.ui.theme.bodyLargeNarrow
+import com.halo.ai.ui.theme.headlineLargeMedium
 
 private const val TAG = "AGModelList"
 private val CONTENT_ANIMATION_OFFSET = 16.dp

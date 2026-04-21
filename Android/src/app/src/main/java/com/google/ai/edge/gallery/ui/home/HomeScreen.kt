@@ -17,8 +17,8 @@
 package com.halo.ai.ui.home
 
 // import androidx.compose.ui.tooling.preview.Preview
-// import com.google.ai.edge.gallery.ui.theme.GalleryTheme
-// import com.google.ai.edge.gallery.ui.preview.PreviewModelManagerViewModel
+// import com.halo.ai.ui.theme.GalleryTheme
+// import com.halo.ai.ui.preview.PreviewModelManagerViewModel
 import android.Manifest
 import android.content.Context
 import android.content.pm.PackageManager
@@ -112,24 +112,24 @@ import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.core.content.ContextCompat
-import com.google.ai.edge.gallery.GalleryTopAppBar
-import com.google.ai.edge.gallery.R
-import com.google.ai.edge.gallery.data.AppBarAction
-import com.google.ai.edge.gallery.data.AppBarActionType
-import com.google.ai.edge.gallery.data.BuiltInTaskId
-import com.google.ai.edge.gallery.data.Category
-import com.google.ai.edge.gallery.data.CategoryInfo
-import com.google.ai.edge.gallery.data.Task
-import com.google.ai.edge.gallery.ui.common.RevealingText
-import com.google.ai.edge.gallery.ui.common.SwipingText
-import com.google.ai.edge.gallery.ui.common.TaskIcon
-import com.google.ai.edge.gallery.ui.common.buildTrackableUrlAnnotatedString
-import com.google.ai.edge.gallery.ui.common.rememberDelayedAnimationProgress
-import com.google.ai.edge.gallery.ui.common.tos.AppTosDialog
-import com.google.ai.edge.gallery.ui.common.tos.TosViewModel
-import com.google.ai.edge.gallery.ui.modelmanager.ModelManagerViewModel
-import com.google.ai.edge.gallery.ui.theme.customColors
-import com.google.ai.edge.gallery.ui.theme.homePageTitleStyle
+import com.halo.ai.GalleryTopAppBar
+import com.halo.ai.R
+import com.halo.ai.data.AppBarAction
+import com.halo.ai.data.AppBarActionType
+import com.halo.ai.data.BuiltInTaskId
+import com.halo.ai.data.Category
+import com.halo.ai.data.CategoryInfo
+import com.halo.ai.data.Task
+import com.halo.ai.ui.common.RevealingText
+import com.halo.ai.ui.common.SwipingText
+import com.halo.ai.ui.common.TaskIcon
+import com.halo.ai.ui.common.buildTrackableUrlAnnotatedString
+import com.halo.ai.ui.common.rememberDelayedAnimationProgress
+import com.halo.ai.ui.common.tos.AppTosDialog
+import com.halo.ai.ui.common.tos.TosViewModel
+import com.halo.ai.ui.modelmanager.ModelManagerViewModel
+import com.halo.ai.ui.theme.customColors
+import com.halo.ai.ui.theme.homePageTitleStyle
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 
@@ -621,7 +621,7 @@ private fun AppTitle(enableAnimation: Boolean) {
 @Composable
 fun AppTitleGm4(enableAnimation: Boolean) {
   val text1 = "Google"
-  val text2 = "AI Edge Gallery"
+  val text2 = "HALO"
   val annotatedText = buildAnnotatedString {
     withStyle(style = SpanStyle(color = MaterialTheme.colorScheme.onSurface)) { append(text1) }
     append(" ")

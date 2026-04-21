@@ -200,12 +200,12 @@ data class Model(
    *
    * The <app_id> depends on how the app was built:
    * - `com.google.aiedge.gallery` for builds from the GitHub source.
-   * - `com.google.ai.edge.gallery` for other builds (Play store, internal, etc).
+   * - `com.halo.ai` for other builds (Play store, internal, etc).
    *
    * For example, if this field is set to "my_model/local_dir/", then the location you should push
    * files to is (assuming non-github builds):
    *
-   * /storage/emulated/0/Android/data/com.google.ai.edge.gallery/files/my_model/local_dir/
+   * /storage/emulated/0/Android/data/com.halo.ai/files/my_model/local_dir/
    *
    * You can get the full path to a specific file within your code using `Model.getPath(Context,
    * fileNameToGet)`.

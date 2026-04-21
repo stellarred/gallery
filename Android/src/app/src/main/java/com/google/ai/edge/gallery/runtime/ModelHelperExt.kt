@@ -16,10 +16,10 @@
 
 package com.halo.ai.runtime
 
-import com.google.ai.edge.gallery.data.Model
-import com.google.ai.edge.gallery.data.RuntimeType
-import com.google.ai.edge.gallery.runtime.aicore.AICoreModelHelper
-import com.google.ai.edge.gallery.ui.llmchat.LlmChatModelHelper
+import com.halo.ai.data.Model
+import com.halo.ai.data.RuntimeType
+import com.halo.ai.runtime.aicore.AICoreModelHelper
+import com.halo.ai.ui.llmchat.LlmChatModelHelper
 
 val Model.runtimeHelper: LlmModelHelper
   get() {

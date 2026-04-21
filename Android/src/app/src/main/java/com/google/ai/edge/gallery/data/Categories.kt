@@ -17,7 +17,7 @@
 package com.halo.ai.data
 
 import androidx.annotation.StringRes
-import com.google.ai.edge.gallery.R
+import com.halo.ai.R
 
 /**
  * Stores basic info about a Category

@@ -44,8 +44,8 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.google.ai.edge.gallery.data.AppBarAction
-import com.google.ai.edge.gallery.data.AppBarActionType
+import com.halo.ai.data.AppBarAction
+import com.halo.ai.data.AppBarActionType
 
 /** The top app bar. */
 @OptIn(ExperimentalMaterial3Api::class)

@@ -18,7 +18,7 @@ package com.halo.ai.runtime
 
 import android.content.Context
 import android.graphics.Bitmap
-import com.google.ai.edge.gallery.data.Model
+import com.halo.ai.data.Model
 import com.google.ai.edge.litertlm.Contents
 import com.google.ai.edge.litertlm.ToolProvider
 import kotlinx.coroutines.CoroutineScope

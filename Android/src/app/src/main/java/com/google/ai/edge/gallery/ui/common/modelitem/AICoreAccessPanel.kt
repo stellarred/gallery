@@ -35,7 +35,7 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.core.net.toUri
-import com.google.ai.edge.gallery.R
+import com.halo.ai.R
 
 /**
  * Composable function to display an access panel for AICore models when they require user action

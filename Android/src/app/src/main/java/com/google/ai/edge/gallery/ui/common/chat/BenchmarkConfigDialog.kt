@@ -17,14 +17,14 @@
 package com.halo.ai.ui.common.chat
 
 // import androidx.compose.ui.tooling.preview.Preview
-// import com.google.ai.edge.gallery.ui.theme.GalleryTheme
+// import com.halo.ai.ui.theme.GalleryTheme
 import androidx.compose.runtime.Composable
-import com.google.ai.edge.gallery.data.Config
-import com.google.ai.edge.gallery.data.ConfigKeys
-import com.google.ai.edge.gallery.data.NumberSliderConfig
-import com.google.ai.edge.gallery.data.ValueType
-import com.google.ai.edge.gallery.data.convertValueToTargetType
-import com.google.ai.edge.gallery.ui.common.ConfigDialog
+import com.halo.ai.data.Config
+import com.halo.ai.data.ConfigKeys
+import com.halo.ai.data.NumberSliderConfig
+import com.halo.ai.data.ValueType
+import com.halo.ai.data.convertValueToTargetType
+import com.halo.ai.ui.common.ConfigDialog
 
 private const val DEFAULT_BENCHMARK_WARM_UP_ITERATIONS = 50f
 private const val DEFAULT_BENCHMARK_ITERATIONS = 200f

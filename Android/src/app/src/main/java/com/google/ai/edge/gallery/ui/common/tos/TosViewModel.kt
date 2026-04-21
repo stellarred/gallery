@@ -17,7 +17,7 @@
 package com.halo.ai.ui.common.tos
 
 import androidx.lifecycle.ViewModel
-import com.google.ai.edge.gallery.data.DataStoreRepository
+import com.halo.ai.data.DataStoreRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 

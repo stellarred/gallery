@@ -41,7 +41,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.core.graphics.toColorInt
-import com.google.ai.edge.gallery.R
+import com.halo.ai.R
 import kotlinx.coroutines.delay
 
 private const val DISMISS_DELAY_SECONDS = 5

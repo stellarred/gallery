@@ -43,8 +43,8 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.semantics.clearAndSetSemantics
 import androidx.compose.ui.unit.Dp
-import com.google.ai.edge.gallery.R
-import com.google.ai.edge.gallery.ui.theme.customColors
+import com.halo.ai.R
+import com.halo.ai.ui.theme.customColors
 
 private const val GRID_SPACING_FACTOR = 0.1f
 private const val ICON_SIZE_FACTOR = 0.3f

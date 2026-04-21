@@ -42,10 +42,10 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.google.ai.edge.gallery.data.convertValueToTargetType
-import com.google.ai.edge.gallery.data.getConfigValueString
-import com.google.ai.edge.gallery.ui.theme.bodySmallNarrow
-import com.google.ai.edge.gallery.ui.theme.titleSmaller
+import com.halo.ai.data.convertValueToTargetType
+import com.halo.ai.data.getConfigValueString
+import com.halo.ai.ui.theme.bodySmallNarrow
+import com.halo.ai.ui.theme.titleSmaller
 
 private data class ConfigRowData(
   val label: String,

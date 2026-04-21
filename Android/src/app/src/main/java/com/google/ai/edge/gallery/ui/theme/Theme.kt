@@ -34,7 +34,7 @@ import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalView
 import androidx.core.view.WindowCompat
-import com.google.ai.edge.gallery.proto.Theme
+import com.halo.ai.proto.Theme
 
 private val lightScheme =
   lightColorScheme(

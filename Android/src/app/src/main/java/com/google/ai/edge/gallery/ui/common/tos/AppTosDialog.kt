@@ -38,8 +38,8 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.Dialog
 import androidx.compose.ui.window.DialogProperties
-import com.google.ai.edge.gallery.R
-import com.google.ai.edge.gallery.ui.common.MarkdownText
+import com.halo.ai.R
+import com.halo.ai.ui.common.MarkdownText
 
 /** A composable for Terms of Service dialog, shown once when app is launched. */
 @OptIn(ExperimentalMaterial3Api::class)

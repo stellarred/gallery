@@ -60,7 +60,7 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import com.google.ai.edge.gallery.R
+import com.halo.ai.R
 
 private const val MAX_DESCRIPTION_LINES = 5
 

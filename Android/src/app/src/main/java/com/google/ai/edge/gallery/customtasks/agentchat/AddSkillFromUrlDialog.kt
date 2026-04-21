@@ -54,7 +54,7 @@ import androidx.compose.ui.text.input.TextFieldValue
 import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Dialog
-import com.google.ai.edge.gallery.R
+import com.halo.ai.R
 import java.net.URI
 
 private val APPROVED_SKILL_HOSTS = listOf("google-ai-edge.github.io")

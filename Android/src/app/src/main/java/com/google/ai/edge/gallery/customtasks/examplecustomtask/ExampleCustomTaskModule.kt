@@ -16,7 +16,7 @@
 
 package com.halo.ai.customtasks.examplecustomtask
 
-import com.google.ai.edge.gallery.customtasks.common.CustomTask
+import com.halo.ai.customtasks.common.CustomTask
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

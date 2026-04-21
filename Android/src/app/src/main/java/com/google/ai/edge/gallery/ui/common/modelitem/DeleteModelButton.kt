@@ -31,11 +31,11 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.res.stringResource
-import com.google.ai.edge.gallery.R
-import com.google.ai.edge.gallery.data.Model
-import com.google.ai.edge.gallery.data.ModelDownloadStatus
-import com.google.ai.edge.gallery.data.ModelDownloadStatusType
-import com.google.ai.edge.gallery.ui.modelmanager.ModelManagerViewModel
+import com.halo.ai.R
+import com.halo.ai.data.Model
+import com.halo.ai.data.ModelDownloadStatus
+import com.halo.ai.data.ModelDownloadStatusType
+import com.halo.ai.ui.modelmanager.ModelManagerViewModel
 
 /** Composable function to display a button for deleting the downloaded model. */
 @Composable

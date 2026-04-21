@@ -35,12 +35,12 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import com.google.ai.edge.gallery.data.Model
-import com.google.ai.edge.gallery.data.ModelDownloadStatusType
-import com.google.ai.edge.gallery.data.Task
-import com.google.ai.edge.gallery.ui.common.DownloadAndTryButton
-import com.google.ai.edge.gallery.ui.common.modelitem.calculateDownloadProgress
-import com.google.ai.edge.gallery.ui.modelmanager.ModelManagerViewModel
+import com.halo.ai.data.Model
+import com.halo.ai.data.ModelDownloadStatusType
+import com.halo.ai.data.Task
+import com.halo.ai.ui.common.DownloadAndTryButton
+import com.halo.ai.ui.common.modelitem.calculateDownloadProgress
+import com.halo.ai.ui.modelmanager.ModelManagerViewModel
 
 @Composable
 fun ModelDownloadStatusInfoPanel(

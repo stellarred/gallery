@@ -18,7 +18,7 @@ package com.halo.ai.data
 
 import android.os.Build
 import android.util.Log
-import com.google.ai.edge.gallery.common.isPixel10
+import com.halo.ai.common.isPixel10
 import com.google.gson.annotations.SerializedName
 
 private const val TAG = "AGModelAllowlist"

@@ -69,23 +69,23 @@ import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.navArgument
-import com.google.ai.edge.gallery.GalleryEvent
-import com.google.ai.edge.gallery.customtasks.common.CustomTaskData
-import com.google.ai.edge.gallery.customtasks.common.CustomTaskDataForBuiltinTask
-import com.google.ai.edge.gallery.data.ModelDownloadStatusType
-import com.google.ai.edge.gallery.data.Task
-import com.google.ai.edge.gallery.data.isLegacyTasks
-import com.google.ai.edge.gallery.firebaseAnalytics
-import com.google.ai.edge.gallery.ui.benchmark.BenchmarkScreen
-import com.google.ai.edge.gallery.ui.common.ErrorDialog
-import com.google.ai.edge.gallery.ui.common.ModelPageAppBar
-import com.google.ai.edge.gallery.ui.common.chat.ModelDownloadStatusInfoPanel
-import com.google.ai.edge.gallery.ui.home.HomeScreen
-import com.google.ai.edge.gallery.ui.home.PromoScreenGm4
-import com.google.ai.edge.gallery.ui.modelmanager.GlobalModelManager
-import com.google.ai.edge.gallery.ui.modelmanager.ModelInitializationStatusType
-import com.google.ai.edge.gallery.ui.modelmanager.ModelManager
-import com.google.ai.edge.gallery.ui.modelmanager.ModelManagerViewModel
+import com.halo.ai.GalleryEvent
+import com.halo.ai.customtasks.common.CustomTaskData
+import com.halo.ai.customtasks.common.CustomTaskDataForBuiltinTask
+import com.halo.ai.data.ModelDownloadStatusType
+import com.halo.ai.data.Task
+import com.halo.ai.data.isLegacyTasks
+import com.halo.ai.firebaseAnalytics
+import com.halo.ai.ui.benchmark.BenchmarkScreen
+import com.halo.ai.ui.common.ErrorDialog
+import com.halo.ai.ui.common.ModelPageAppBar
+import com.halo.ai.ui.common.chat.ModelDownloadStatusInfoPanel
+import com.halo.ai.ui.home.HomeScreen
+import com.halo.ai.ui.home.PromoScreenGm4
+import com.halo.ai.ui.modelmanager.GlobalModelManager
+import com.halo.ai.ui.modelmanager.ModelInitializationStatusType
+import com.halo.ai.ui.modelmanager.ModelManager
+import com.halo.ai.ui.modelmanager.ModelManagerViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
@@ -445,7 +445,7 @@ fun GalleryNavHost(
   if (data != null) {
     intent.data = null
     Log.d(TAG, "navigation link clicked: $data")
-    if (data.toString().startsWith("com.google.ai.edge.gallery://model/")) {
+    if (data.toString().startsWith("com.halo.ai://model/")) {
       if (data.pathSegments.size >= 2) {
         val taskId = data.pathSegments.get(data.pathSegments.size - 2)
         val modelName = data.pathSegments.last()
@@ -455,7 +455,7 @@ fun GalleryNavHost(
       } else {
         Log.e(TAG, "Malformed deep link URI received: $data")
       }
-    } else if (data.toString() == "com.google.ai.edge.gallery://global_model_manager") {
+    } else if (data.toString() == "com.halo.ai://global_model_manager") {
       navController.navigate(ROUTE_MODEL_MANAGER)
     }
   }

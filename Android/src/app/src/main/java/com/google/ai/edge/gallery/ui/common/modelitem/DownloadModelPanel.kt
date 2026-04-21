@@ -27,13 +27,13 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
-import com.google.ai.edge.gallery.data.Model
-import com.google.ai.edge.gallery.data.ModelDownloadStatusType
-import com.google.ai.edge.gallery.data.RuntimeType
-import com.google.ai.edge.gallery.data.Task
-import com.google.ai.edge.gallery.ui.common.DownloadAndTryButton
-import com.google.ai.edge.gallery.ui.common.tos.TosViewModel
-import com.google.ai.edge.gallery.ui.modelmanager.ModelManagerViewModel
+import com.halo.ai.data.Model
+import com.halo.ai.data.ModelDownloadStatusType
+import com.halo.ai.data.RuntimeType
+import com.halo.ai.data.Task
+import com.halo.ai.ui.common.DownloadAndTryButton
+import com.halo.ai.ui.common.tos.TosViewModel
+import com.halo.ai.ui.modelmanager.ModelManagerViewModel
 
 @OptIn(ExperimentalSharedTransitionApi::class)
 @Composable

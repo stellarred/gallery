@@ -23,9 +23,9 @@ import androidx.compose.material.icons.rounded.Check
 import androidx.compose.ui.graphics.ImageBitmap
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.unit.Dp
-import com.google.ai.edge.gallery.common.Classification
-import com.google.ai.edge.gallery.data.Model
-import com.google.ai.edge.gallery.data.PromptTemplate
+import com.halo.ai.common.Classification
+import com.halo.ai.data.Model
+import com.halo.ai.data.PromptTemplate
 
 private const val TAG = "AGChatMessage"
 

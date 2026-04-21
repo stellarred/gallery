@@ -22,8 +22,8 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.res.stringResource
-import com.google.ai.edge.gallery.R
-import com.google.ai.edge.gallery.data.Model
+import com.halo.ai.R
+import com.halo.ai.data.Model
 
 /** Composable function to display a confirmation dialog for deleting a model. */
 @Composable

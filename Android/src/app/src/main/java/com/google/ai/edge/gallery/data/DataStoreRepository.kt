@@ -17,17 +17,17 @@
 package com.halo.ai.data
 
 import androidx.datastore.core.DataStore
-import com.google.ai.edge.gallery.proto.AccessTokenData
-import com.google.ai.edge.gallery.proto.BenchmarkResult
-import com.google.ai.edge.gallery.proto.BenchmarkResults
-import com.google.ai.edge.gallery.proto.Cutout
-import com.google.ai.edge.gallery.proto.CutoutCollection
-import com.google.ai.edge.gallery.proto.ImportedModel
-import com.google.ai.edge.gallery.proto.Settings
-import com.google.ai.edge.gallery.proto.Skill
-import com.google.ai.edge.gallery.proto.Skills
-import com.google.ai.edge.gallery.proto.Theme
-import com.google.ai.edge.gallery.proto.UserData
+import com.halo.ai.proto.AccessTokenData
+import com.halo.ai.proto.BenchmarkResult
+import com.halo.ai.proto.BenchmarkResults
+import com.halo.ai.proto.Cutout
+import com.halo.ai.proto.CutoutCollection
+import com.halo.ai.proto.ImportedModel
+import com.halo.ai.proto.Settings
+import com.halo.ai.proto.Skill
+import com.halo.ai.proto.Skills
+import com.halo.ai.proto.Theme
+import com.halo.ai.proto.UserData
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.runBlocking
 

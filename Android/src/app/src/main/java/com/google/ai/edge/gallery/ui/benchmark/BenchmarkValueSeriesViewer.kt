@@ -47,9 +47,9 @@ import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.google.ai.edge.gallery.R
-import com.google.ai.edge.gallery.proto.ValueSeries
-import com.google.ai.edge.gallery.ui.theme.customColors
+import com.halo.ai.R
+import com.halo.ai.proto.ValueSeries
+import com.halo.ai.ui.theme.customColors
 import java.util.Locale
 
 @OptIn(ExperimentalMaterial3Api::class)

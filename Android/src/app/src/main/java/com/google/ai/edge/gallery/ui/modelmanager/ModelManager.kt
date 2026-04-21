@@ -17,9 +17,9 @@
 package com.halo.ai.ui.modelmanager
 
 // import androidx.compose.ui.tooling.preview.Preview
-// import com.google.ai.edge.gallery.ui.preview.PreviewModelManagerViewModel
-// import com.google.ai.edge.gallery.ui.preview.TASK_TEST1
-// import com.google.ai.edge.gallery.ui.theme.GalleryTheme
+// import com.halo.ai.ui.preview.PreviewModelManagerViewModel
+// import com.halo.ai.ui.preview.TASK_TEST1
+// import com.halo.ai.ui.theme.GalleryTheme
 
 import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.layout.fillMaxSize
@@ -31,11 +31,11 @@ import androidx.compose.runtime.derivedStateOf
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
-import com.google.ai.edge.gallery.GalleryTopAppBar
-import com.google.ai.edge.gallery.data.AppBarAction
-import com.google.ai.edge.gallery.data.AppBarActionType
-import com.google.ai.edge.gallery.data.Model
-import com.google.ai.edge.gallery.data.Task
+import com.halo.ai.GalleryTopAppBar
+import com.halo.ai.data.AppBarAction
+import com.halo.ai.data.AppBarActionType
+import com.halo.ai.data.Model
+import com.halo.ai.data.Task
 
 /** A screen to manage models. */
 @OptIn(ExperimentalMaterial3Api::class)

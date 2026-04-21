@@ -27,7 +27,7 @@ import androidx.compose.ui.text.TextLinkStyles
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.unit.sp
-import com.google.ai.edge.gallery.ui.theme.customColors
+import com.halo.ai.ui.theme.customColors
 import com.halilibo.richtext.commonmark.Markdown
 import com.halilibo.richtext.ui.CodeBlockStyle
 import com.halilibo.richtext.ui.RichTextStyle

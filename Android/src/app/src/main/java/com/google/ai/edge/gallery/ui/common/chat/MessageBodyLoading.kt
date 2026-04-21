@@ -43,7 +43,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.unit.dp
-import com.google.ai.edge.gallery.ui.common.RotationalLoader
+import com.halo.ai.ui.common.RotationalLoader
 
 /** Composable function to display a loading indicator. */
 @Composable

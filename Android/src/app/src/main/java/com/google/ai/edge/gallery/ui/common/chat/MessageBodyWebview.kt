@@ -47,8 +47,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import com.google.ai.edge.gallery.R
-import com.google.ai.edge.gallery.ui.common.GalleryWebView
+import com.halo.ai.R
+import com.halo.ai.ui.common.GalleryWebView
 import kotlinx.coroutines.launch
 
 private const val TAG = "AGMessageBodyWebview"

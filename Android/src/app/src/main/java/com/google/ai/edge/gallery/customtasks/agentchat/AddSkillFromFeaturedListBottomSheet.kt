@@ -63,8 +63,8 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.unit.dp
-import com.google.ai.edge.gallery.R
-import com.google.ai.edge.gallery.data.AllowedSkill
+import com.halo.ai.R
+import com.halo.ai.data.AllowedSkill
 import kotlinx.coroutines.launch
 
 /** A ModalBottomSheet Composable for displaying and adding skills from a featured list. */

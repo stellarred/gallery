@@ -18,14 +18,14 @@ package com.halo.ai.customtasks.agentchat
 
 import android.content.Context
 import androidx.compose.runtime.Composable
-import com.google.ai.edge.gallery.R
-import com.google.ai.edge.gallery.customtasks.common.CustomTask
-import com.google.ai.edge.gallery.customtasks.common.CustomTaskDataForBuiltinTask
-import com.google.ai.edge.gallery.data.BuiltInTaskId
-import com.google.ai.edge.gallery.data.Category
-import com.google.ai.edge.gallery.data.Model
-import com.google.ai.edge.gallery.data.Task
-import com.google.ai.edge.gallery.ui.llmchat.LlmChatModelHelper
+import com.halo.ai.R
+import com.halo.ai.customtasks.common.CustomTask
+import com.halo.ai.customtasks.common.CustomTaskDataForBuiltinTask
+import com.halo.ai.data.BuiltInTaskId
+import com.halo.ai.data.Category
+import com.halo.ai.data.Model
+import com.halo.ai.data.Task
+import com.halo.ai.ui.llmchat.LlmChatModelHelper
 import com.google.ai.edge.litertlm.tool
 import dagger.Module
 import dagger.Provides

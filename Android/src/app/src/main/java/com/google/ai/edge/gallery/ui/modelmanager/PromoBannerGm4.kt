@@ -51,8 +51,8 @@ import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.res.vectorResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.google.ai.edge.gallery.R
-import com.google.ai.edge.gallery.ui.theme.customColors
+import com.halo.ai.R
+import com.halo.ai.ui.theme.customColors
 
 private val BUTTON_PADDING = PaddingValues(start = 8.dp, top = 0.dp, end = 8.dp, bottom = 0.dp)
 

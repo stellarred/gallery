@@ -57,9 +57,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import com.google.ai.edge.gallery.R
-import com.google.ai.edge.gallery.common.clearFocusOnKeyboardDismiss
-import com.google.ai.edge.gallery.ui.theme.customColors
+import com.halo.ai.R
+import com.halo.ai.common.clearFocusOnKeyboardDismiss
+import com.halo.ai.ui.theme.customColors
 import kotlinx.coroutines.launch
 
 /**

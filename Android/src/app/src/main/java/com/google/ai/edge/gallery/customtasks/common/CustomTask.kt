@@ -18,8 +18,8 @@ package com.halo.ai.customtasks.common
 
 import android.content.Context
 import androidx.compose.runtime.Composable
-import com.google.ai.edge.gallery.data.Model
-import com.google.ai.edge.gallery.data.Task
+import com.halo.ai.data.Model
+import com.halo.ai.data.Task
 import kotlinx.coroutines.CoroutineScope
 
 /**
@@ -53,7 +53,7 @@ import kotlinx.coroutines.CoroutineScope
  *    the app's home screen.
  *
  * For a concrete example of how to implement these steps, see the
- * [com.google.ai.edge.gallery.customtasks.examplecustomtask.ExampleCustomTask] class. This example
+ * [com.halo.ai.customtasks.examplecustomtask.ExampleCustomTask] class. This example
  * implements a "Model Viewer" task that displays the text content of a model file for demonstration
  * purpose. See comments there for more details.
  *

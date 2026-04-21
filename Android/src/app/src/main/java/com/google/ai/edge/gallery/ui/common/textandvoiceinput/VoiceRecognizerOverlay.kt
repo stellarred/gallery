@@ -38,10 +38,10 @@ import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import com.google.ai.edge.gallery.R
-import com.google.ai.edge.gallery.data.Task
-import com.google.ai.edge.gallery.ui.common.AudioAnimation
-import com.google.ai.edge.gallery.ui.common.getTaskBgGradientColors
+import com.halo.ai.R
+import com.halo.ai.data.Task
+import com.halo.ai.ui.common.AudioAnimation
+import com.halo.ai.ui.common.getTaskBgGradientColors
 
 private const val TAG = "AGVROverlay"
 

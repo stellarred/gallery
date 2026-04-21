@@ -17,7 +17,7 @@
 package com.halo.ai.ui.common.chat
 
 // import androidx.compose.ui.tooling.preview.Preview
-// import com.google.ai.edge.gallery.ui.theme.GalleryTheme
+// import com.halo.ai.ui.theme.GalleryTheme
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Row
@@ -34,8 +34,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import com.google.ai.edge.gallery.R
-import com.google.ai.edge.gallery.ui.theme.bodySmallNarrow
+import com.halo.ai.R
+import com.halo.ai.ui.theme.bodySmallNarrow
 
 data class MessageLayoutConfig(
   val horizontalArrangement: Arrangement.Horizontal,

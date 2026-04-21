@@ -43,18 +43,18 @@ import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import com.google.ai.edge.gallery.R
-import com.google.ai.edge.gallery.data.Task
-import com.google.ai.edge.gallery.ui.common.chat.ChatMessageError
-import com.google.ai.edge.gallery.ui.common.chat.ChatMessageText
-import com.google.ai.edge.gallery.ui.common.chat.ChatMessageWarning
-import com.google.ai.edge.gallery.ui.common.chat.ChatSide
-import com.google.ai.edge.gallery.ui.common.chat.MessageBodyError
-import com.google.ai.edge.gallery.ui.common.chat.MessageBodyText
-import com.google.ai.edge.gallery.ui.common.chat.MessageBodyWarning
-import com.google.ai.edge.gallery.ui.common.chat.MessageBubbleShape
-import com.google.ai.edge.gallery.ui.common.chat.MessageSender
-import com.google.ai.edge.gallery.ui.theme.customColors
+import com.halo.ai.R
+import com.halo.ai.data.Task
+import com.halo.ai.ui.common.chat.ChatMessageError
+import com.halo.ai.ui.common.chat.ChatMessageText
+import com.halo.ai.ui.common.chat.ChatMessageWarning
+import com.halo.ai.ui.common.chat.ChatSide
+import com.halo.ai.ui.common.chat.MessageBodyError
+import com.halo.ai.ui.common.chat.MessageBodyText
+import com.halo.ai.ui.common.chat.MessageBodyWarning
+import com.halo.ai.ui.common.chat.MessageBubbleShape
+import com.halo.ai.ui.common.chat.MessageSender
+import com.halo.ai.ui.theme.customColors
 
 /** A panel to show the conversation history. */
 @Composable

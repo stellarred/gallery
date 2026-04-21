@@ -42,9 +42,9 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.core.content.ContextCompat
-import com.google.ai.edge.gallery.R
-import com.google.ai.edge.gallery.data.Task
-import com.google.ai.edge.gallery.ui.common.getTaskBgGradientColors
+import com.halo.ai.R
+import com.halo.ai.data.Task
+import com.halo.ai.ui.common.getTaskBgGradientColors
 import kotlin.coroutines.cancellation.CancellationException
 
 private const val TAG = "AGHoldToDictate"

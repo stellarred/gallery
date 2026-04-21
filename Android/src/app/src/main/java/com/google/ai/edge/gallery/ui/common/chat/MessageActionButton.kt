@@ -17,7 +17,7 @@
 package com.halo.ai.ui.common.chat
 
 // import androidx.compose.ui.tooling.preview.Preview
-// import com.google.ai.edge.gallery.ui.theme.GalleryTheme
+// import com.halo.ai.ui.theme.GalleryTheme
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Row
@@ -35,7 +35,7 @@ import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.unit.dp
-import com.google.ai.edge.gallery.ui.theme.bodySmallNarrow
+import com.halo.ai.ui.theme.bodySmallNarrow
 
 /** Composable function to display an action button below a chat message. */
 @Composable

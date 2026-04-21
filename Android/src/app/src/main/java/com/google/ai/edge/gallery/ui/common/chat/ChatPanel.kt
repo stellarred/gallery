@@ -85,17 +85,17 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.IntOffset
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.google.ai.edge.gallery.R
-import com.google.ai.edge.gallery.data.BuiltInTaskId
-import com.google.ai.edge.gallery.data.Model
-import com.google.ai.edge.gallery.data.Task
-import com.google.ai.edge.gallery.ui.common.AudioAnimation
-import com.google.ai.edge.gallery.ui.common.ErrorDialog
-import com.google.ai.edge.gallery.ui.common.FloatingBanner
-import com.google.ai.edge.gallery.ui.common.RotationalLoader
-import com.google.ai.edge.gallery.ui.modelmanager.ModelInitializationStatusType
-import com.google.ai.edge.gallery.ui.modelmanager.ModelManagerViewModel
-import com.google.ai.edge.gallery.ui.theme.customColors
+import com.halo.ai.R
+import com.halo.ai.data.BuiltInTaskId
+import com.halo.ai.data.Model
+import com.halo.ai.data.Task
+import com.halo.ai.ui.common.AudioAnimation
+import com.halo.ai.ui.common.ErrorDialog
+import com.halo.ai.ui.common.FloatingBanner
+import com.halo.ai.ui.common.RotationalLoader
+import com.halo.ai.ui.modelmanager.ModelInitializationStatusType
+import com.halo.ai.ui.modelmanager.ModelManagerViewModel
+import com.halo.ai.ui.theme.customColors
 import kotlinx.coroutines.delay
 
 /** Composable function for the main chat panel, displaying messages and handling user input. */

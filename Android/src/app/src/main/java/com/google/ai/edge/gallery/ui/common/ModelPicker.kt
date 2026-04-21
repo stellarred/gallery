@@ -17,9 +17,9 @@
 package com.halo.ai.ui.common
 
 // import androidx.compose.ui.tooling.preview.Preview
-// import com.google.ai.edge.gallery.ui.preview.PreviewModelManagerViewModel
-// import com.google.ai.edge.gallery.ui.preview.TASK_TEST1
-// import com.google.ai.edge.gallery.ui.theme.GalleryTheme
+// import com.halo.ai.ui.preview.PreviewModelManagerViewModel
+// import com.halo.ai.ui.preview.TASK_TEST1
+// import com.halo.ai.ui.theme.GalleryTheme
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -51,13 +51,13 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.res.vectorResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.google.ai.edge.gallery.R
-import com.google.ai.edge.gallery.data.Model
-import com.google.ai.edge.gallery.data.RuntimeType
-import com.google.ai.edge.gallery.data.Task
-import com.google.ai.edge.gallery.ui.common.modelitem.StatusIcon
-import com.google.ai.edge.gallery.ui.modelmanager.ModelManagerViewModel
-import com.google.ai.edge.gallery.ui.theme.labelSmallNarrow
+import com.halo.ai.R
+import com.halo.ai.data.Model
+import com.halo.ai.data.RuntimeType
+import com.halo.ai.data.Task
+import com.halo.ai.ui.common.modelitem.StatusIcon
+import com.halo.ai.ui.modelmanager.ModelManagerViewModel
+import com.halo.ai.ui.theme.labelSmallNarrow
 
 @Composable
 fun ModelPicker(

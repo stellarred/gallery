@@ -34,21 +34,21 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.core.os.bundleOf
-import com.google.ai.edge.gallery.GalleryEvent
-import com.google.ai.edge.gallery.R
-import com.google.ai.edge.gallery.data.BuiltInTaskId
-import com.google.ai.edge.gallery.data.Model
-import com.google.ai.edge.gallery.data.RuntimeType
-import com.google.ai.edge.gallery.data.Task
-import com.google.ai.edge.gallery.firebaseAnalytics
-import com.google.ai.edge.gallery.ui.common.chat.ChatMessageAudioClip
-import com.google.ai.edge.gallery.ui.common.chat.ChatMessageImage
-import com.google.ai.edge.gallery.ui.common.chat.ChatMessageText
-import com.google.ai.edge.gallery.ui.common.chat.ChatView
-import com.google.ai.edge.gallery.ui.common.chat.SendMessageTrigger
-import com.google.ai.edge.gallery.ui.modelmanager.ModelManagerViewModel
-import com.google.ai.edge.gallery.ui.theme.emptyStateContent
-import com.google.ai.edge.gallery.ui.theme.emptyStateTitle
+import com.halo.ai.GalleryEvent
+import com.halo.ai.R
+import com.halo.ai.data.BuiltInTaskId
+import com.halo.ai.data.Model
+import com.halo.ai.data.RuntimeType
+import com.halo.ai.data.Task
+import com.halo.ai.firebaseAnalytics
+import com.halo.ai.ui.common.chat.ChatMessageAudioClip
+import com.halo.ai.ui.common.chat.ChatMessageImage
+import com.halo.ai.ui.common.chat.ChatMessageText
+import com.halo.ai.ui.common.chat.ChatView
+import com.halo.ai.ui.common.chat.SendMessageTrigger
+import com.halo.ai.ui.modelmanager.ModelManagerViewModel
+import com.halo.ai.ui.theme.emptyStateContent
+import com.halo.ai.ui.theme.emptyStateTitle
 
 private const val TAG = "AGLlmChatScreen"
 

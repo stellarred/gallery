@@ -56,13 +56,13 @@ import androidx.compose.ui.semantics.LiveRegionMode
 import androidx.compose.ui.semantics.liveRegion
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.unit.dp
-import com.google.ai.edge.gallery.R
-import com.google.ai.edge.gallery.data.ConfigKeys
-import com.google.ai.edge.gallery.data.Model
-import com.google.ai.edge.gallery.data.Task
-import com.google.ai.edge.gallery.ui.common.MarkdownText
-import com.google.ai.edge.gallery.ui.common.chat.MessageBodyLoading
-import com.google.ai.edge.gallery.ui.modelmanager.ModelManagerViewModel
+import com.halo.ai.R
+import com.halo.ai.data.ConfigKeys
+import com.halo.ai.data.Model
+import com.halo.ai.data.Task
+import com.halo.ai.ui.common.MarkdownText
+import com.halo.ai.ui.common.chat.MessageBodyLoading
+import com.halo.ai.ui.modelmanager.ModelManagerViewModel
 import kotlinx.coroutines.launch
 
 private const val TAG = "AGResponsePanel"

@@ -90,13 +90,13 @@ import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.TextLayoutResult
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import com.google.ai.edge.gallery.R
-import com.google.ai.edge.gallery.data.Model
-import com.google.ai.edge.gallery.ui.common.chat.MessageBubbleShape
-import com.google.ai.edge.gallery.ui.modelmanager.ModelInitializationStatusType
-import com.google.ai.edge.gallery.ui.modelmanager.ModelManagerViewModel
-import com.google.ai.edge.gallery.ui.theme.bodyLargeNarrow
-import com.google.ai.edge.gallery.ui.theme.customColors
+import com.halo.ai.R
+import com.halo.ai.data.Model
+import com.halo.ai.ui.common.chat.MessageBubbleShape
+import com.halo.ai.ui.modelmanager.ModelInitializationStatusType
+import com.halo.ai.ui.modelmanager.ModelManagerViewModel
+import com.halo.ai.ui.theme.bodyLargeNarrow
+import com.halo.ai.ui.theme.customColors
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 

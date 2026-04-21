@@ -36,7 +36,7 @@ import androidx.compose.ui.focus.onFocusEvent
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.platform.LocalFocusManager
 import androidx.exifinterface.media.ExifInterface
-import com.google.ai.edge.gallery.data.SAMPLE_RATE
+import com.halo.ai.data.SAMPLE_RATE
 import com.google.gson.Gson
 import java.io.File
 import java.io.FileInputStream

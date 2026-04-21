@@ -19,9 +19,9 @@ package com.halo.ai.ui.common.chat
 import android.util.Log
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.lifecycle.ViewModel
-import com.google.ai.edge.gallery.common.processLlmResponse
-import com.google.ai.edge.gallery.data.ConfigKeys
-import com.google.ai.edge.gallery.data.Model
+import com.halo.ai.common.processLlmResponse
+import com.halo.ai.data.ConfigKeys
+import com.halo.ai.data.Model
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update

@@ -43,8 +43,8 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.Dialog
-import com.google.ai.edge.gallery.R
-import com.google.ai.edge.gallery.ui.common.buildTrackableUrlAnnotatedString
+import com.halo.ai.R
+import com.halo.ai.ui.common.buildTrackableUrlAnnotatedString
 
 /** A composable for Gemma Terms of Use dialog, shown once before a Gemma model is downloaded. */
 @OptIn(ExperimentalMaterial3Api::class)
@@ -72,7 +72,7 @@ fun GemmaTermsOfUseDialog(
         Column(modifier = Modifier.verticalScroll(rememberScrollState()).weight(1f, fill = false)) {
           Text(
             buildAnnotatedString {
-              append("Gemma models on the Google AI Edge Gallery app are governed by the ")
+              append("Gemma models on the HALO app are governed by the ")
               append(
                 buildTrackableUrlAnnotatedString(
                   url = "https://ai.google.dev/gemma/terms",

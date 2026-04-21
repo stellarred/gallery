@@ -44,9 +44,9 @@ import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleEventObserver
 import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.compose.LocalLifecycleOwner
-import com.google.ai.edge.gallery.BuildConfig
-import com.google.ai.edge.gallery.common.getJsonResponse
-import com.google.ai.edge.gallery.ui.common.ClickableLink
+import com.halo.ai.BuildConfig
+import com.halo.ai.common.getJsonResponse
+import com.halo.ai.ui.common.ClickableLink
 import kotlin.math.max
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

@@ -17,8 +17,8 @@
 package com.halo.ai
 
 import android.app.Application
-import com.google.ai.edge.gallery.data.DataStoreRepository
-import com.google.ai.edge.gallery.ui.theme.ThemeSettings
+import com.halo.ai.data.DataStoreRepository
+import com.halo.ai.ui.theme.ThemeSettings
 import com.google.firebase.FirebaseApp
 import dagger.hilt.android.HiltAndroidApp
 import javax.inject.Inject

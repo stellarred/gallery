@@ -22,7 +22,7 @@ import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.res.stringResource
-import com.google.ai.edge.gallery.R
+import com.halo.ai.R
 
 @Composable
 fun AddSkillDisclaimerDialog(onDismiss: () -> Unit, onConfirm: () -> Unit) {

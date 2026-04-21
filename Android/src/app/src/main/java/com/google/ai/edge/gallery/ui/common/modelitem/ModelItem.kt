@@ -62,17 +62,17 @@ import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.google.ai.edge.gallery.R
-import com.google.ai.edge.gallery.data.Model
-import com.google.ai.edge.gallery.data.ModelDownloadStatus
-import com.google.ai.edge.gallery.data.ModelDownloadStatusType
-import com.google.ai.edge.gallery.data.RuntimeType
-import com.google.ai.edge.gallery.data.Task
-import com.google.ai.edge.gallery.ui.common.MarkdownText
-import com.google.ai.edge.gallery.ui.common.tos.TosViewModel
-import com.google.ai.edge.gallery.ui.modelmanager.ModelManagerViewModel
-import com.google.ai.edge.gallery.ui.theme.bodyMediumMedium
-import com.google.ai.edge.gallery.ui.theme.customColors
+import com.halo.ai.R
+import com.halo.ai.data.Model
+import com.halo.ai.data.ModelDownloadStatus
+import com.halo.ai.data.ModelDownloadStatusType
+import com.halo.ai.data.RuntimeType
+import com.halo.ai.data.Task
+import com.halo.ai.ui.common.MarkdownText
+import com.halo.ai.ui.common.tos.TosViewModel
+import com.halo.ai.ui.modelmanager.ModelManagerViewModel
+import com.halo.ai.ui.theme.bodyMediumMedium
+import com.halo.ai.ui.theme.customColors
 import kotlin.text.toFloat
 
 /**

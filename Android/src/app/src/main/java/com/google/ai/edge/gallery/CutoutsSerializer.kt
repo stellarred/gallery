@@ -18,7 +18,7 @@ package com.halo.ai
 
 import androidx.datastore.core.CorruptionException
 import androidx.datastore.core.Serializer
-import com.google.ai.edge.gallery.proto.CutoutCollection
+import com.halo.ai.proto.CutoutCollection
 import com.google.protobuf.InvalidProtocolBufferException
 import java.io.InputStream
 import java.io.OutputStream

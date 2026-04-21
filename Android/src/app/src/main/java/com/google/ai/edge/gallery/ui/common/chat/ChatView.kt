@@ -16,10 +16,10 @@
 
 package com.halo.ai.ui.common.chat
 
-// import com.google.ai.edge.gallery.ui.preview.PreviewChatModel
-// import com.google.ai.edge.gallery.ui.preview.PreviewModelManagerViewModel
-// import com.google.ai.edge.gallery.ui.preview.TASK_TEST1
-// import com.google.ai.edge.gallery.ui.theme.GalleryTheme
+// import com.halo.ai.ui.preview.PreviewChatModel
+// import com.halo.ai.ui.preview.PreviewModelManagerViewModel
+// import com.halo.ai.ui.preview.TASK_TEST1
+// import com.halo.ai.ui.theme.GalleryTheme
 
 import android.graphics.Bitmap
 import android.util.Log
@@ -61,15 +61,15 @@ import androidx.compose.ui.graphics.asImageBitmap
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import com.google.ai.edge.gallery.R
-import com.google.ai.edge.gallery.data.BuiltInTaskId
-import com.google.ai.edge.gallery.data.ConfigKeys
-import com.google.ai.edge.gallery.data.Model
-import com.google.ai.edge.gallery.data.ModelDownloadStatusType
-import com.google.ai.edge.gallery.data.Task
-import com.google.ai.edge.gallery.ui.common.ModelPageAppBar
-import com.google.ai.edge.gallery.ui.modelmanager.ModelInitializationStatusType
-import com.google.ai.edge.gallery.ui.modelmanager.ModelManagerViewModel
+import com.halo.ai.R
+import com.halo.ai.data.BuiltInTaskId
+import com.halo.ai.data.ConfigKeys
+import com.halo.ai.data.Model
+import com.halo.ai.data.ModelDownloadStatusType
+import com.halo.ai.data.Task
+import com.halo.ai.ui.common.ModelPageAppBar
+import com.halo.ai.ui.modelmanager.ModelInitializationStatusType
+import com.halo.ai.ui.modelmanager.ModelManagerViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
