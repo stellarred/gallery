@@ -43,7 +43,7 @@ android {
     // Use the scheme of the "Redirect URLs" in HuggingFace app.
     manifestPlaceholders["appAuthRedirectScheme"] =
         "REPLACE_WITH_YOUR_REDIRECT_SCHEME_IN_HUGGINGFACE_APP"
-    manifestPlaceholders["applicationName"] = "com.google.ai.edge.gallery.GalleryApplication"
+    manifestPlaceholders["applicationName"] = "com.halo.ai.GalleryApplication"
 
     testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
   }

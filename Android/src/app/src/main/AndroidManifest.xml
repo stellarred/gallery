@@ -67,7 +67,7 @@
           Instead, just recompose the view.
          -->
         <activity
-            android:name="com.google.ai.edge.gallery.MainActivity"
+            android:name="com.halo.ai.MainActivity"
             android:exported="true"
             android:theme="@style/Theme.Gallery.SplashScreen"
             android:screenOrientation="portrait"
@@ -87,7 +87,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
 
-                <data android:scheme="com.google.ai.edge.gallery" />
+                <data android:scheme="com.halo.ai" />
             </intent-filter>
         </activity>
 
