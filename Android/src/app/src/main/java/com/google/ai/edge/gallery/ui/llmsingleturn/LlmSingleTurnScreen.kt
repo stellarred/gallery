@@ -50,11 +50,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalLayoutDirection
-import androidx.core.os.bundleOf
 import com.halo.ai.GalleryEvent
 import com.halo.ai.data.BuiltInTaskId
 import com.halo.ai.data.ModelDownloadStatusType
-import com.halo.ai.firebaseAnalytics
 import com.halo.ai.ui.common.ErrorDialog
 import com.halo.ai.ui.common.ModelPageAppBar
 import com.halo.ai.ui.common.chat.ModelDownloadStatusInfoPanel
@@ -191,11 +189,6 @@ fun LlmSingleTurnScreen(
               modelManagerViewModel = modelManagerViewModel,
               onSend = { fullPrompt ->
                 viewModel.generateResponse(task = task, model = selectedModel, input = fullPrompt)
-
-                firebaseAnalytics?.logEvent(
-                  GalleryEvent.GENERATE_ACTION.id,
-                  bundleOf("capability_name" to task.id, "model_id" to selectedModel.name),
-                )
               },
               onStopButtonClicked = { model -> viewModel.stopResponse(model = model) },
               modifier = Modifier.fillMaxSize(),

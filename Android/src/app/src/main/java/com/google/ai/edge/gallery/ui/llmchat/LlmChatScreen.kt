@@ -33,14 +33,12 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import androidx.core.os.bundleOf
 import com.halo.ai.GalleryEvent
 import com.halo.ai.R
 import com.halo.ai.data.BuiltInTaskId
 import com.halo.ai.data.Model
 import com.halo.ai.data.RuntimeType
 import com.halo.ai.data.Task
-import com.halo.ai.firebaseAnalytics
 import com.halo.ai.ui.common.chat.ChatMessageAudioClip
 import com.halo.ai.ui.common.chat.ChatMessageImage
 import com.halo.ai.ui.common.chat.ChatMessageText
@@ -236,11 +234,6 @@ fun ChatViewWrapper(
             )
           },
           allowThinking = allowThinking,
-        )
-
-        firebaseAnalytics?.logEvent(
-          GalleryEvent.GENERATE_ACTION.id,
-          bundleOf("capability_name" to task.id, "model_id" to model.name),
         )
       }
     },

@@ -19,7 +19,6 @@ package com.halo.ai
 import android.app.Application
 import com.halo.ai.data.DataStoreRepository
 import com.halo.ai.ui.theme.ThemeSettings
-import com.google.firebase.FirebaseApp
 import dagger.hilt.android.HiltAndroidApp
 import javax.inject.Inject
 
@@ -34,6 +33,7 @@ class GalleryApplication : Application() {
     // Load saved theme.
     ThemeSettings.themeOverride.value = dataStoreRepository.readTheme()
 
-    FirebaseApp.initializeApp(this)
+    // Firebase removed for Phase 1
+    // TODO: Re-enable if Firebase is needed for Phase 2
   }
 }

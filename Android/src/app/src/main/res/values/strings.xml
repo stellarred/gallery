@@ -219,7 +219,7 @@
   <string name="mobile_actions_challenge_subtitle" translatable="false">Build it to play it!</string>
   <string name="mobile_actions_challenge_description" translatable="false">This demo is locked. To unlock the Mobile Actions agent, you need to compile the model yourself using our open-source recipe.</string>
   <string name="mobile_actions_challenge_instructions_title" translatable="false">Instructions:</string>
-  <string name="mobile_actions_challenge_instruction_1" translatable="false">1. <![CDATA[<b>On your computer</b>]]>, open <![CDATA[<a href="https://ai.google.dev/gemma/docs/mobile-actions">this guide</a>]]></string>
+  <string name="mobile_actions_challenge_instruction_1" translatable="false">1. <![CDATA[<b>On your computer</b>]]>, open the documentation for your model.</string>
   <string name="mobile_actions_challenge_instruction_2" translatable="false">2. Follow the instructions to fine tune the model and convert it to .litertlm format.</string>
   <string name="mobile_actions_challenge_instruction_3" translatable="false">3. Transfer the file to this phone.</string>
   <string name="mobile_actions_challenge_instruction_4" translatable="false">4. Tap <![CDATA[<b>Load Model</b>]]> below to unlock the demo.</string>
@@ -246,7 +246,7 @@
   <string name="add_skill_manual_input_sheet_title" translatable="false">Create a skill</string>
   <string name="agent_skills" translatable="false">Agent Skills</string>
   <string name="agent_skills_description" translatable="false">Use specialized, high-order reasoning by loading different skills or creating your own.\n\nTry tapping a sample prompt below to see Agent Skills in action!</string>
-  <string name="disclaimer_dialog_content" translatable="false">Third-party skills are not authored or endorsed by Google. Google is not responsible for their contents, security, or data handling practices.\n\nPlease exercise caution before providing sensitive information, such as personal identification, tokens, or API keys.\n\nAny use of an Agent Skill is subject to the applicable terms for that Skill.</string>
+  <string name="disclaimer_dialog_content" translatable="false">Third-party skills are not authored or endorsed by HALO. HALO is not responsible for their contents, security, or data handling practices.\n\nPlease exercise caution before providing sensitive information, such as personal identification, tokens, or API keys.\n\nAny use of an Agent Skill is subject to the applicable terms for that Skill.</string>
   <string name="disclaimer_dialog_title" translatable="false">Add third-party skill</string>
   <string name="disclaimer_dialog_agree" translatable="false">Agree</string>
   <string name="delete_script_dialog_title" translatable="false">Delete script</string>

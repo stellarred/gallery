@@ -15,8 +15,6 @@
  */
 
 package com.halo.ai.ui.benchmark
-
-import android.os.Bundle
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
@@ -75,7 +73,6 @@ import com.halo.ai.data.NumberSliderConfig
 import com.halo.ai.data.SegmentedButtonConfig
 import com.halo.ai.data.ValueType
 import com.halo.ai.data.convertValueToTargetType
-import com.halo.ai.firebaseAnalytics
 import com.halo.ai.ui.common.ConfigEditorsPanel
 import com.halo.ai.ui.common.SMALL_BUTTON_CONTENT_PADDING
 import com.halo.ai.ui.modelmanager.ModelManagerViewModel
@@ -240,13 +237,6 @@ fun BenchmarkScreen(
               enabled = filteredResults.isNotEmpty(),
               onClick = {
                 viewModel.setShowResultsViewer(showResultsViewer = true)
-                firebaseAnalytics?.logEvent(
-                  GalleryEvent.BUTTON_CLICKED.id,
-                  Bundle().apply {
-                    putString("event_type", "view_benchmark_results")
-                    putString("model_id", selectedModelName)
-                  },
-                )
               },
               modifier = Modifier.weight(1f),
             ) {
@@ -311,13 +301,6 @@ fun BenchmarkScreen(
               prefillTokens = getIntConfigValue(values = values, key = ConfigKeys.PREFILL_TOKENS),
               decodeTokens = getIntConfigValue(values = values, key = ConfigKeys.DECODE_TOKENS),
               runCount = getIntConfigValue(values = values, key = ConfigKeys.NUMBER_OF_RUNS),
-            )
-            firebaseAnalytics?.logEvent(
-              GalleryEvent.BUTTON_CLICKED.id,
-              Bundle().apply {
-                putString("event_type", "run_benchmark")
-                putString("model_id", selectedModelName)
-              },
             )
             showRunBenchmarkConfirmationDialog = false
           },

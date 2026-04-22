@@ -224,48 +224,49 @@ val lightCustomColors =
 
 val darkCustomColors =
   CustomColors(
-    appTitleGradientColors = listOf(Color(0xFF85B1F8), Color(0xFF3174F1)),
-    tabHeaderBgColor = Color(0xFF3174F1),
-    taskCardBgColor = surfaceContainerHighDark,
+    // HALO Phase 1: Placeholder theme - white on black
+    appTitleGradientColors = listOf(Color(0xFFFFFFFF), Color(0xFFFFFFFF)),
+    tabHeaderBgColor = Color(0xFFFFFFFF),
+    taskCardBgColor = Color(0xFF1A1A1A),
     taskBgColors =
       listOf(
         // red
-        Color(0xFF181210),
+        Color(0xFF1A0000),
         // green
-        Color(0xFF131711),
+        Color(0xFF001A00),
         // blue
-        Color(0xFF191924),
+        Color(0xFF00001A),
         // yellow
-        Color(0xFF1A1813),
+        Color(0xFF1A1A00),
       ),
     taskBgGradientColors =
       listOf(
         // red
-        listOf(Color(0xFFE25F57), Color(0xFFDB372D)),
+        listOf(Color(0xFF990000), Color(0xFFCC0000)),
         // green
-        listOf(Color(0xFF41A15F), Color(0xFF128937)),
+        listOf(Color(0xFF006600), Color(0xFF009900)),
         // blue
-        listOf(Color(0xFF669DF6), Color(0xFF3174F1)),
+        listOf(Color(0xFF000099), Color(0xFF0000CC)),
         // yellow
-        listOf(Color(0xFFFDD45D), Color(0xFFCAA12A)),
+        listOf(Color(0xFF999900), Color(0xFFCCCC00)),
       ),
     taskIconColors =
       listOf(
         // red.
-        Color(0xFFE25F57),
+        Color(0xFFFF6666),
         // green
-        Color(0xFF41A15F),
+        Color(0xFF66FF66),
         // blue
-        Color(0xFF669DF6),
+        Color(0xFF6666FF),
         // yellow
-        Color(0xFFCAA12A),
+        Color(0xFFFFFF66),
       ),
-    taskIconShapeBgColor = Color(0xFF202124),
-    homeBottomGradient = listOf(Color(0x00F8F9FF), Color(0x1AF6AD01)),
-    agentBubbleBgColor = Color(0xFF1b1c1d),
-    userBubbleBgColor = Color(0xFF1f3760),
-    linkColor = Color(0xFF9DCAFC),
-    successColor = Color(0xFFA1CE83),
+    taskIconShapeBgColor = Color(0xFF333333),
+    homeBottomGradient = listOf(Color(0x00000000), Color(0x80000000)),
+    agentBubbleBgColor = Color(0xFF1A1A1A),
+    userBubbleBgColor = Color(0xFF00001A),
+    linkColor = Color(0xFF66CCFF),
+    successColor = Color(0xFF66FF66),
     recordButtonBgColor = Color(0xFFEE675C),
     waveFormBgColor = Color(0xFFaaaaaa),
     modelInfoIconColor = Color(0xFFCCCCCC),
@@ -318,10 +319,8 @@ fun StatusBarColorController(useDarkTheme: Boolean) {
 
 @Composable
 fun GalleryTheme(content: @Composable () -> Unit) {
-  val themeOverride = ThemeSettings.themeOverride
-  val darkTheme: Boolean =
-    (isSystemInDarkTheme() || themeOverride.value == Theme.THEME_DARK) &&
-      themeOverride.value != Theme.THEME_LIGHT
+  // HALO Phase 1: Always use dark theme (placeholder)
+  val darkTheme = true
   val view = LocalView.current
 
   StatusBarColorController(useDarkTheme = darkTheme)

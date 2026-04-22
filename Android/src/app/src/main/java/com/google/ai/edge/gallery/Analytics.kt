@@ -16,24 +16,19 @@
 
 package com.halo.ai
 
-import android.util.Log
-import com.google.firebase.Firebase
-import com.google.firebase.analytics.FirebaseAnalytics
-import com.google.firebase.analytics.analytics
+import android.os.Bundle
 
-private var hasLoggedAnalyticsWarning = false
+// Stub: Firebase Analytics removed for Phase 1
+// TODO: Re-enable if Firebase is needed for Phase 2
+val firebaseAnalytics: FirebaseAnalyticsStub? = null
 
-val firebaseAnalytics: FirebaseAnalytics?
-  get() =
-    runCatching { Firebase.analytics }
-      .onFailure { exception ->
-        // Firebase.analytics can throw an exception if goolgle-services is not set up, e.g.,
-        // missing google-services.json.
-        if (!hasLoggedAnalyticsWarning) {
-          Log.w("AGAnalyticsFirebase", "Firebase Analytics is not available", exception)
-        }
-      }
-      .getOrNull()
+class FirebaseAnalyticsStub {
+  fun logEvent(eventId: String, args: Bundle = Bundle()) {}
+}
+
+fun logEvent(eventId: String, args: Bundle = Bundle()) {
+  // No-op - Firebase Analytics removed for Phase 1
+}
 
 enum class GalleryEvent(val id: String) {
   CAPABILITY_SELECT(id = "capability_select"),
